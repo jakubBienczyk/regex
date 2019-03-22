@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/java/pl/jakub/regex/tests/DecimalNumbersTest.java" line="101" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f217c1f-757a-411c-91a2-0c04481958ef" name="Default Changelist" comment="" />
+    <list default="true" id="0f217c1f-757a-411c-91a2-0c04481958ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/jakub/regex/tests/PalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/jakub/regex/tests/PalindromeTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/jakub/regex/tests/DecimalNumbersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="225">
+              <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pl/jakub/regex/tests/PalindromeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="240">
+              <caret line="16" column="289" selection-start-line="16" selection-start-column="289" selection-end-line="16" selection-end-column="289" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -216,7 +218,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553242990719" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553245349273" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -247,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeTest">
+  <component name="RunManager" selected="JUnit.StackOverflowErrorTest.a">
     <configuration name="DatesTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="regex spring" />
       <extension name="coverage">
@@ -387,6 +389,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackOverflowErrorTest.a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="regex spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.jakub.regex.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.jakub.regex.tests" />
+      <option name="MAIN_CLASS_NAME" value="pl.jakub.regex.tests.StackOverflowErrorTest" />
+      <option name="METHOD_NAME" value="a" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegexApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="regex spring" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pl.jakub.regex.RegexApplication" />
@@ -405,9 +423,11 @@
       <item itemvalue="JUnit.RegexTest.test3" />
       <item itemvalue="JUnit.RegexTest.test4" />
       <item itemvalue="Spring Boot.RegexApplication" />
+      <item itemvalue="JUnit.StackOverflowErrorTest.a" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackOverflowErrorTest.a" />
         <item itemvalue="JUnit.RegexTest.test4" />
         <item itemvalue="JUnit.RegexTest.test1" />
         <item itemvalue="JUnit.RegexTest.test2" />
@@ -426,7 +446,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551615897814</updated>
       <workItem from="1551615901269" duration="34000" />
-      <workItem from="1551615972274" duration="33959000" />
+      <workItem from="1551615972274" duration="34624000" />
     </task>
     <servers />
   </component>
@@ -463,7 +483,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33993000" />
+    <option name="totallyTimeSpent" value="34658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-4" width="1440" height="904" extended-state="6" />
@@ -672,16 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/jakub/regex/tests/DecimalNumbersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/jakub/regex/tests/Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -689,10 +699,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/jakub/regex/tests/DecimalNumbersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="70" lean-forward="true" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pl/jakub/regex/tests/PalindromeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="240">
+          <caret line="16" column="289" selection-start-line="16" selection-start-column="289" selection-end-line="16" selection-end-column="289" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
